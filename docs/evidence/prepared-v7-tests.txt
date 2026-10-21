@@ -1,0 +1,27 @@
+$ node scripts/verify.mjs
+PASS: five fields, default message replacement, dynamic fields, user edits, namespace isolation and no auto-send
+PASS: sender save, deduplication, invalid URL rejection, payload, opened/sent distinction, actual sent text, immutable history, repeat prevention and reload
+PASS: legacy copy upgrade, Laissa signature, short link, historical text preservation and custom copy preservation
+PASS: automatic CRM import, duplicate aliases ignored, external domains rejected, existing outreach preserved and cursor saved
+PASS: 20,000-contact load with durable storage and only 100 rendered rows per page
+PASS: permanent unique numbering, filters, deletion without reuse, imports, reload, duplicate repair and 200-page navigation
+PASS: unreadable data preserved, valid backup restores writes, language aliases deduplicated, failed collection save retried before acknowledgment
+PASS: delete by status across all pages, delete all, history and sender retained, stale batch ignored and extension reset handshake
+
+
+$ node scripts/collector.test.mjs
+PASS: exclusive domain, profile URLs, aliases, visible directory cards, deduplication, real names, pagination, disabled controls and blocked-page detection
+PASS: worker ownership, one collection tab, ID deduplication, source attribution, page checkpoints, incremental transfer, pause/resume and preserved contacts on challenge
+PASS: directory runner captures two successive pages automatically and stops without collecting when verification is required
+PASS: exact batch quota, persistent last agent and page, next batch resumes within a page, changing batch sizes, saved-data acknowledgment and full-navigation page numbering
+PASS: authorized reset clears batch and cursor, rejects stale tab messages and restarts at page one
+PASS: autofill data retained per tab/profile, reload recovery, foreign origins rejected and autoSubmit discarded
+
+
+$ node scripts/form-diagnostics.test.mjs
+PASS: actual length constraints, missing required fields, email and phone validation, required consent left untouched, disabled submit, reCAPTCHA presence and reports without field values
+
+
+$ node scripts/payload.test.mjs
+PASS: payload captured before router change, retained for reload, Unicode preserved and no payload invented
+

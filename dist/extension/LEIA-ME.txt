@@ -1,0 +1,39 @@
+AI PROPERTY CRM — EXTENSÃO EXCLUSIVA PARA SOTHEBY'S — 1.4.0
+
+SE JÁ INSTALOU UMA VERSÃO ANTERIOR:
+Extraia os novos arquivos na mesma pasta da extensão, substituindo os antigos.
+Em chrome://extensions, clique em recarregar no cartão AI Property CRM — Sotheby's.
+Recarregue o CRM. Não é necessário instalar outra extensão nem copiar contatos.
+
+1. Extraia este ZIP em uma pasta permanente.
+2. No Chrome, abra chrome://extensions.
+3. Ative “Modo do desenvolvedor”.
+4. Clique em “Carregar sem compactação” e selecione a pasta que contém manifest.json.
+5. Recarregue o CRM AI Property Studio. O indicador passará a “Extensão conectada”.
+6. Selecione 10, 50, 100 ou 200 novos corretores e clique em “Coletar próximos 100” (o número muda conforme a seleção). A extensão percorre o diretório na ordem da lista fornecida, sem copiar links. Ao atingir a quantidade, o lote termina. A página, o último corretor e a posição de retomada ficam salvos para o próximo lote.
+   Se o lote for interrompido, use “Retomar lote”. Se houver verificação no site, a coleta pausa e preserva o ponto e os contatos já encontrados.
+7. Salve seus dados e a mensagem no CRM. Clique em “Preencher e revisar” no corretor.
+8. Na página da Sotheby's, abra “Contact” se necessário. A extensão aguarda os campos.
+9. Revise, resolva o CAPTCHA e envie manualmente. Volte ao CRM e confirme o envio.
+
+A extensão só atua na Sotheby's com o código exclusivo deste CRM.
+Coleta nomes, regiões quando identificadas e links de perfis no diretório oficial.
+O progresso é salvo pela extensão e espelhado no CRM. O backup inclui o ponto de retomada.
+Um novo lote só começa depois que o CRM confirma que os contatos anteriores foram salvos.
+Duplicados são identificados pelo ID do corretor. Não coleta em outros sites ou buscadores.
+Não envia mensagens, não marca consentimentos e não coleta biografias ou imóveis.
+Dados e histórico do CRM são salvos neste navegador. Exporte um backup regularmente.
+Não altera nem compartilha dados com a extensão AI Fashion Cast.
+
+SE O BOTÃO SEND MESSAGE NÃO RESPONDER:
+No painel AI Property CRM da página do corretor, clique em “Verificar formulário”.
+O relatório mostra o tamanho e o limite declarado da mensagem, campos obrigatórios
+pendentes, erros nativos de email/telefone, mensagens visíveis do site e reCAPTCHA.
+Após seu clique manual em SEND MESSAGE, o painel verifica novamente os erros.
+“Copiar diagnóstico” copia as verificações técnicas sem os valores dos seus campos.
+Sem um limite declarado no HTML, a extensão informa que um limite do servidor
+ainda é desconhecido. Nenhuma verificação confirma sozinha que a mensagem foi enviada.
+
+Excluir todos: apaga os contatos do CRM e reinicia o ponto de coleta da extensão. Mensagem, remetente e histórico de envios são preservados. Para excluir um status, selecione o status e use Excluir deste status.
+
+Preenchimento 1.4.0: os dados do CRM são capturados antes do carregamento do perfil e guardados para a mesma aba e corretor por até 2 horas. Após atualizar a extensão, feche as abas antigas de perfis e abra novamente pelo botão Preencher e revisar no CRM. O painel detecta o formulário ao abrir e continua ativo até você fechá-lo. Preencher novamente reaplica os dados salvos no formulário. A extensão não envia mensagens automaticamente.

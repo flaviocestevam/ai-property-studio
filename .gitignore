@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+playwright/.auth/
+test-results/
+*.log
+*.sqlite
+*.sqlite3
+.DS_Store

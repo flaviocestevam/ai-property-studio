@@ -1,0 +1,10 @@
+{
+  "name": "ai-property-studio-crm",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Existing AI Property Studio CRM and Chrome extension; Codex handoff",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "test": "node scripts/verify.mjs && node scripts/collector.test.mjs && node scripts/form-diagnostics.test.mjs && node scripts/payload.test.mjs"
+  }
+}

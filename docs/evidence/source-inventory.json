@@ -1,0 +1,102 @@
+[
+  {
+    "path": ".openai/hosting.json",
+    "bytes": 106,
+    "sha256": "f32a91a45c8864677806bd2d69bf0ac3e7be3dde77cdd071f641deb40f994fcf"
+  },
+  {
+    "path": "dist/ai-property-crm-extension.zip",
+    "bytes": 16532,
+    "sha256": "4ac40fcb15522dfd549685d5396b7b1328fee699bcad8820867b6378e7f8c770"
+  },
+  {
+    "path": "dist/app.js",
+    "bytes": 30672,
+    "sha256": "cf0e9b0094cc05b773e26ee4e1bf2d678581f623a736b1c3bcf1010d9a79e70a"
+  },
+  {
+    "path": "dist/collector.css",
+    "bytes": 1257,
+    "sha256": "551662baf4c7d85c248ce5c75fd9c2adc134103c6f63b8f9a72ee601ed9bf2b4"
+  },
+  {
+    "path": "dist/extension/LEIA-ME.txt",
+    "bytes": 3406,
+    "sha256": "844e22f9c513fc796a1bd2e986f5f3d611865cafc1fd7430c70462e69682330d"
+  },
+  {
+    "path": "dist/extension/autofill.js",
+    "bytes": 9422,
+    "sha256": "45f6447b80490bde92fff7c8bb538c47941350a6279fe17c384d6f7214f236cd"
+  },
+  {
+    "path": "dist/extension/background.js",
+    "bytes": 11339,
+    "sha256": "8e97364210b5cd40ab210039dc032df74b1b0a821e74cdba5409a6eb7ffc725c"
+  },
+  {
+    "path": "dist/extension/bridge.js",
+    "bytes": 985,
+    "sha256": "1a2e0c79562aec0c4e5756543da0ee6d3d7ccd7c41adcd8febd0dc0511ab10b8"
+  },
+  {
+    "path": "dist/extension/collector-core.js",
+    "bytes": 4228,
+    "sha256": "6a3c22683da71227eff71fb4d18a94d7964cd74e17088fc904d689dc6b023996"
+  },
+  {
+    "path": "dist/extension/directory.js",
+    "bytes": 3993,
+    "sha256": "945c4cf6414d24080ae88cb9dcc9bfaa61ac070862568efb597e8c6d34082385"
+  },
+  {
+    "path": "dist/extension/form-diagnostics.js",
+    "bytes": 3199,
+    "sha256": "464f6f7839a83bf99c24c4a8b1e179c9ff66d82d6a4767b93422932ab6caa577"
+  },
+  {
+    "path": "dist/extension/manifest.json",
+    "bytes": 1214,
+    "sha256": "c608aac561f8db1a7226aac5b6f046687c5bb00c24ae1f3247177843d214e289"
+  },
+  {
+    "path": "dist/extension/payload.js",
+    "bytes": 1015,
+    "sha256": "168dc114ff6a2d3fb057fc754aa8b3d82202920fe99acd3be87d0f0a4399cbd2"
+  },
+  {
+    "path": "dist/index.html",
+    "bytes": 11825,
+    "sha256": "d1270ec09fa710685ff28f41b8064cca43522f141ffe53b9648d28e5ec55fafc"
+  },
+  {
+    "path": "dist/storage.js",
+    "bytes": 1070,
+    "sha256": "cd3a3bc6dc0100ae5a36218f64f6908823f2371ccadedf6499d748be7c58d435"
+  },
+  {
+    "path": "dist/style.css",
+    "bytes": 8976,
+    "sha256": "b453767b6a1992319b133fda05f6c9244c69752e26cc974c9547e8b56598ed1a"
+  },
+  {
+    "path": "scripts/collector.test.mjs",
+    "bytes": 11764,
+    "sha256": "72757499009d0917d1eaa8d5f411cae703a8d08d178a7cfe135ebdbb3475edd0"
+  },
+  {
+    "path": "scripts/form-diagnostics.test.mjs",
+    "bytes": 2415,
+    "sha256": "22601679a142e45714ee30fee583469cca96bc2d2bec047343effcf0a7f651ac"
+  },
+  {
+    "path": "scripts/payload.test.mjs",
+    "bytes": 1517,
+    "sha256": "1fc0496b34a513ee5b2fced4703ba50bdd5f3fd64104839057d9c4011d07224f"
+  },
+  {
+    "path": "scripts/verify.mjs",
+    "bytes": 15799,
+    "sha256": "1bc7bf4513fbf13785af2764f2815a766a0a4d0b590898f647fc7e685bbd710f"
+  }
+]

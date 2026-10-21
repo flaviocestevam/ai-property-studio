@@ -1,0 +1,7 @@
+{
+  "git_bundle_clone": "passed",
+  "checkout_head": "55180295f8741a0918fd990293665539d2b56c59",
+  "source_javascript_syntax": "passed",
+  "extension_zip_matches_source": "passed",
+  "both_snapshots_test_suites": "passed"
+}

@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "AI Property CRM — Sotheby's",
+  "version": "1.4.0",
+  "description": "Preenchimento exclusivo do CRM AI Property Studio. Você revisa e envia manualmente.",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://www.sothebysrealty.com/*",
+    "https://ai-property-crm.flaviocostaestevam.chatgpt.site/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.sothebysrealty.com/*"
+      ],
+      "js": [
+        "payload.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://www.sothebysrealty.com/*"
+      ],
+      "js": [
+        "form-diagnostics.js",
+        "autofill.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://www.sothebysrealty.com/eng/associates/*"
+      ],
+      "js": [
+        "collector-core.js",
+        "directory.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://ai-property-crm.flaviocostaestevam.chatgpt.site/*"
+      ],
+      "js": [
+        "bridge.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
